@@ -213,8 +213,8 @@ color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444;}
 #wrap section#portfolio .portfolio_main dl:nth-child(7) dd p.site_btn a:hover{border: 1px solid #f2b111; color: #f2b111;}
 
 /* section etc - 기타디자인 */
-section#etc{width: 100%; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
-section#etc .etc_main{width: 1400px; height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
+section#etc{width: 100%;min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
+section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
 section#etc .etc_main dl{width: 19.2%; margin-right: 1%; position: relative; cursor: pointer;}
 section#etc .etc_main dl:last-child{margin-right: 0; }
 section#etc .etc_main dl dt{position: relative; width: 270px; height: 270px; overflow: hidden;}
