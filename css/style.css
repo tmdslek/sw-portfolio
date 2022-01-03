@@ -105,7 +105,7 @@ section#skill .skill_main .box {width: 220px; height: 280px;
 position: relative; margin-top: 100px; margin-left: 50px;}
 section#skill .skill_main .box>i {
     color: #fff; background: #ffd381; border-radius: 50%;
-    width: 33px; height: 33px; margin-bottom: 10px; margin-left: 90px; text-align: center; 
+    width: 33px; height: 33px; margin-bottom: 10px; margin-left: 95px; text-align: center; 
 
 }
 section#skill .skill_main .box dl dt {font-size: 20px;
@@ -177,7 +177,7 @@ color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444;}
 #wrap section#portfolio .portfolio_main dl:nth-child(3) dd p.site_btn a:hover{border: 1px solid #f2b111; color: #f2b111;}
 /* pf-04 */
 #wrap section#portfolio .portfolio_main dl:nth-child(4){position: relative;}
-#wrap section#portfolio .portfolio_main dl:nth-child(4) dt{background: url("../images/pf4.png") no-repeat 0 120px; background-size: 75%; float: right;}
+#wrap section#portfolio .portfolio_main dl:nth-child(4) dt{background: url("../images/1500x1000/pf4.png") no-repeat 0 120px; background-size: 75%; float: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd{position: absolute; top: 100px; left: 100px;width: 450px; margin-top: 50px; margin-left: 50px; text-align: right;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd h4{font-size: 15px; margin-bottom: 10px;}
 #wrap section#portfolio .portfolio_main dl:nth-child(4) dd h5{font-size: 50px; margin-bottom: 10px; font-weight: 100;}
@@ -213,8 +213,9 @@ color: #000; transition: .5s; letter-spacing: 5px; border: 1px solid #444;}
 #wrap section#portfolio .portfolio_main dl:nth-child(7) dd p.site_btn a:hover{border: 1px solid #f2b111; color: #f2b111;}
 
 /* section etc - 기타디자인 */
-section#etc{width: 100%;min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
-section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden; padding-top: 60px;}
+section#etc{width: 100%; min-width: 1400px; overflow: hidden; background: #f9f9f9; padding: 100px 0;}
+section#etc .etc_main{width: 1400px; min-width: 1400px;height: 400px; margin: 0 auto; overflow: hidden;
+     padding-top: 60px;}
 section#etc .etc_main dl{width: 19.2%; margin-right: 1%; position: relative; cursor: pointer;}
 section#etc .etc_main dl:last-child{margin-right: 0; }
 section#etc .etc_main dl dt{position: relative; width: 270px; height: 270px; overflow: hidden;}
@@ -265,7 +266,7 @@ section#etc .etc_main dl dd span{font-weight: normal;}
 #popup1 button.prev{position: absolute; top: 40%; left: 0;}
 #popup1 button.next{position: absolute; top: 40%; right: 0;}
 #popup1 ul.popList{width: 2400px; height: 738px;}
-#popup1 ul.popList li.popImg{width: 800px; height: 638px;}
+#popup1 ul.popList li.popImg{width: 800px; height: 600px;}
 /* popup2 */
 #popup2{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 800px; height: 538px; overflow: hidden; z-index: 999999; display: none;}
 #popup2 button{width: 100px; height: 100px; font-size: 70px; font-weight: 100; padding-bottom: 10px; outline: 0; border: 0;   background: #333; color: #fff; opacity: 0.3; cursor: pointer; font-family: 'RalewayT'; z-index: 999999;}
